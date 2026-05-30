@@ -1,0 +1,16 @@
+# Versatile configuration for worlds.
+
+overworld:
+  overworld-name: overworld
+  tnt-per-tick: 300
+  max-entities: 100000
+
+nether:
+    nether-name: the_nether
+    tnt-per-tick: 200
+    max-entities: 1000000
+
+end:
+    end-name: the_end
+    tnt-per-tick: 200
+    max-entities: 500000

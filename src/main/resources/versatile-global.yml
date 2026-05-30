@@ -1,0 +1,17 @@
+# This is the versatile global configuration.
+
+# Async Settings
+async-entities-spawning: false
+async-chunks-generator: false
+
+# Settings
+# When false mob pathfinding will be removed
+mob-ai: true
+
+# Redstones
+# When piston is getting signal from a nearby redstone source constantly, piston will only get powered every 4 times of redstone signal.
+piston-powers-every-tick: 4
+redstone-powers-every-tick: 2
+
+# Threads
+use-virtual-threads: true

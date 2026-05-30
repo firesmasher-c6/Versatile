@@ -1,0 +1,21 @@
+# Plugin API Configuration
+# Paper/Bukkit API compatibility settings
+
+plugin-api:
+  # Enable Paper API
+  paper-api-enabled: true
+  
+  # API version
+  api-version: "1.21"
+  
+  # Plugin directory
+  plugin-directory: "plugins/"
+  
+  # Library directory for plugin dependencies
+  library-directory: "libs/"
+  
+  # Enable async plugin events
+  async-events-enabled: true
+  
+  # Thread pool size for async plugin operations
+  plugin-thread-pool-size: 32

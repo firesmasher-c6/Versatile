@@ -1,0 +1,8 @@
+# This is the configuration of versatile.
+
+# Server Mod Name visibke on F3 menu
+server-mod-name: Versatile
+
+# Max Entities per Chunks
+max-entities-per-chunks: 80
+max-entities-limit-message: "This Chunk Has Reached Its Limit Of Max Entities"

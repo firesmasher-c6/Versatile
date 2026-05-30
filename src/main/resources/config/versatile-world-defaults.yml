@@ -1,0 +1,20 @@
+# Default World Configuration Template
+# Applied to all new worlds unless overridden
+
+world-defaults:
+  difficulty: "NORMAL"
+  game-mode: "SURVIVAL"
+  pvp-enabled: true
+  
+  environment:
+    weather-enabled: true
+    day-night-cycle: true
+    ambient-spawn-limit: 15
+    monster-spawn-limit: 70
+    
+  performance:
+    # Enable aggressive chunk unloading
+    chunk-unload-delay: 300
+    
+    # Reduction factor for random tick speed (default 3)
+    random-tick-speed: 3

@@ -1,0 +1,37 @@
+# Global Versatile Configuration
+# Performance tuning and tick loop settings
+
+performance:
+  # Virtual Thread pool size for async IO operations
+  virtual-thread-pool-size: 256
+  
+  # Enable Virtual Threads for network operations
+  use-virtual-threads: true
+
+tick-rates:
+  # Main server tick rate (20 ticks per second standard)
+  main: 20
+  
+  # Redstone tick rate (signals per second)
+  redstone: 20
+  
+  # Piston signal tick rate
+  piston: 20
+  
+  # Block update tick rate
+  block-updates: 20
+
+world-ticking:
+  # Chunk load distance for active ticking
+  chunk-load-radius: 12
+  
+  # Enable aggressive entity culling
+  entity-culling-enabled: true
+  
+  # Maximum entities per chunk
+  max-entities-per-chunk: 16
+
+logging:
+  level: "INFO"
+  file: "logs/versatile.log"
+  max-file-size: "10MB"

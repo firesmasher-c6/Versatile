@@ -1,0 +1,14 @@
+# This is the PaperMC API Settings
+# By Default This Allows Supported APIs To work On Versatile
+
+# Paper
+allow-paper-plugins: true
+allow-paper-api: true
+
+# Spigot
+allow-spigot-plugins: true
+allow-spigot-api: true
+
+# Bukkit
+allow-bukkit-plugins: true
+allow-bukkit-api: true
