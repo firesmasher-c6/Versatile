@@ -1,0 +1,15 @@
+# Ignore build artifacts
+target/
+
+# Ignore the server file
+libs/server.jar
+
+# Ignore IDE settings
+.idea/
+*.iml
+.settings/
+.project
+.classpath
+
+# Ignore local metadata
+*.log
